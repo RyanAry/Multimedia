@@ -20,7 +20,7 @@ function ExecuteScript(strId)
 function Script1()
 {
   if (!window.globalAudio) {
-    window.globalAudio = new Audio("story_content/audio/Meanwhile.mp3");
+    window.globalAudio = new Audio("story_content/audio/zalora.mp3");
     window.globalAudio.loop = true;
     window.globalAudio.volume = 0.3;
 }
